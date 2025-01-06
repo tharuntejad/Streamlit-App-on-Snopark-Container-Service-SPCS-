@@ -19,6 +19,7 @@ This guide demonstrates how to deploy a containerized Streamlit web app or any o
 5. **Push Image to Snowflake Image Repository**
 6. **Create Service**
 7. **Grant Access to Other Users or Roles**
+8. **Useful Links**
 
 #### 1. Setup Snowflake Objects and Roles
 
@@ -261,7 +262,7 @@ GRANT ROLE spcs_role TO ROLE developer;
 - For more details on managing Snowpark Container Services, visit the [official documentation](https://docs.snowflake.com/developer-guide/snowpark-container-services/working-with-services).
 
 
-#### Useful Links
+#### 8. Useful Links
 
 - [Initial Setup Tutorial](https://docs.snowflake.com/en/developer-guide/snowpark-container-services/tutorials/common-setup#verify-that-you-are-ready-to-continue) – Guide for setting up Snowpark Container Services.
 - [Flask App Deployment Tutorial](https://docs.snowflake.com/en/developer-guide/snowpark-container-services/tutorials/tutorial-1#create-a-service) – Step-by-step tutorial for deploying a Flask application.
